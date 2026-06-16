@@ -1,10 +1,10 @@
 # Frontend
 #/frontend/**   @your-org/frontend
-.js            mydemoorg-1/nd-frontend
+.js            @mydemoorg-1/nd-frontend
 
 # Backend
 #/backend/**    @your-org/backend
-.py            mydemoorg-1/nd-backend
+.py            @mydemoorg-1/nd-backend
 
 # Infra (Terraform, pipelines etc.)
 #/infra/**      @your-org/infra
