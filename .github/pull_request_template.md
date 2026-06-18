@@ -1,4 +1,9 @@
-# Pull Request Template
+# Pull Request Review Template
+This template is designed to ensure that all pull requests follow the project’s coding standards, architectural guidelines, and review requirements across Backend, Frontend, and Infrastructure components.
+
+## Important Note
+Before creating or submitting the pull request, please ensure that all **sections** are properly updated.
+Pull requests with missing required information may be rejected during review.
 
 ---
 
