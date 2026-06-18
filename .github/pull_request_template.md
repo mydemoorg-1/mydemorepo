@@ -6,8 +6,8 @@
 
 - [ ] Backend  
 - [ ] Frontend  
-- [ ] Infrastructure  
-- [ ] Full Stack  
+- [ ] Infrastructure
+- [ ] Documentation
 
 ---
 
@@ -22,51 +22,54 @@ Describe clearly:
 
 ## Work Item (Mandatory)
 
-- ADO / Jira / User Story ID:
+- Jira Work Item ID:
 
 ---
 
 # Backend Checklist
-*(Complete if `/src/backend` is impacted)*
+*(Complete if `/backend` is impacted)*
 
-- [ ] API → Service → Repository pattern followed  
+- [ ] API → Service → Repository pattern followed
+- [ ] Functions → Service → Repository pattern followed
 - [ ] No business logic in controllers/routes  
 - [ ] Pydantic validation implemented  
 - [ ] Type hints added  
 - [ ] ORM usage follows standards  
 - [ ] No raw SQL in service layer  
-- [ ] Authentication/Authorization reviewed  
+- [ ] Authentication/Authorization implemented  
 - [ ] Input validation completed  
 - [ ] No secrets committed  
 - [ ] Structured logging implemented  
 - [ ] Unit tests added/updated  
-- [ ] Integration tests updated  
-- [ ] Ruff checks passed  
+- [ ] Integration tests updated
 - [ ] Sonar issues resolved  
-- [ ] No breaking API changes  
+- [ ] No breaking API changes
+- [ ] Documents created/updated
 
 ---
 
 # Frontend Checklist
-*(Complete if `/src/frontend` is impacted)*
+*(Complete if `/frontend` is impacted)*
 
 - [ ] Feature-based architecture maintained  
 - [ ] No business logic in components  
 - [ ] Reusable components used  
 - [ ] State management follows project standards  
-- [ ] API integration follows shared services pattern  
+- [ ] API integration follows shared services pattern
+- [ ] Authentication/Authorization implemented  
 - [ ] Responsive design verified  
 - [ ] Accessibility reviewed  
 - [ ] Unit tests updated  
 - [ ] No console logs  
-- [ ] No unused code  
+- [ ] No unused code
+- [ ] Documents created/updated
 
 ---
 
 # Infrastructure Checklist
 *(Complete if `/infra` is impacted)*
 
-- [ ] Bicep/Terraform validation completed  
+- [ ] Terraform validation completed  
 - [ ] Managed Identity used where applicable  
 - [ ] RBAC reviewed  
 - [ ] Key Vault used for secrets  
@@ -74,7 +77,8 @@ Describe clearly:
 - [ ] No hardcoded environment values  
 - [ ] Cost impact reviewed  
 - [ ] Monitoring/alerts configured if required  
-- [ ] Deployment tested  
+- [ ] Deployment tested
+- [ ] Documents created/updated
 
 ---
 
@@ -84,8 +88,7 @@ Describe clearly:
 
 - [ ] Unit Testing  
 - [ ] Integration Testing  
-- [ ] Manual Testing  
-- [ ] UAT  
+- [ ] Manual Testing   
 
 ---
 
@@ -99,18 +102,4 @@ Provide details of:
 
 ---
 
-# Reviewer Focus Area
-
-Specify areas where reviewers should pay extra attention (e.g., security, performance, API changes, networking, cost impact).
-
----
-
-# Additional Notes (Optional)
-
-Include any additional context:
-- Known limitations  
-- Follow-up work  
-- Deployment considerations  
-
----
 `
